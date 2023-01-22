@@ -3262,18 +3262,24 @@ a {
 .cid-ttzUpOLhzj H5 {
   color: #ff66a1;
 }
-.cid-ttzWSQxx4P {
-  background-image: url("../../../assets/images/background10.jpg");
+.cid-ttAHaZd6xg {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #ffffff;
 }
-.cid-ttzWSQxx4P .mbr-fallback-image.disabled {
-  display: none;
+.cid-ttAHaZd6xg .mbr-overlay {
+  background-color: #ffffff;
+  opacity: 0.4;
 }
-.cid-ttzWSQxx4P .mbr-fallback-image {
-  display: block;
-  background-size: cover;
-  background-position: center center;
+.cid-ttAHaZd6xg form .mbr-section-btn {
+  text-align: center;
   width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
+}
+.cid-ttAHaZd6xg form .mbr-section-btn .btn {
+  display: inline-flex;
+}
+@media (max-width: 991px) {
+  .cid-ttAHaZd6xg form .mbr-section-btn .btn {
+    width: 100%;
+  }
 }
